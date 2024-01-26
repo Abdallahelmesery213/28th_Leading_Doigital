@@ -348,6 +348,43 @@ header .nav3 ul li:not(:last-child)::after {
 }
 /* end topics */
 
+/* start attends */
+.attends{
+    margin: 40px 0;
+}
+.attends h4{
+    font-family: bruumBoldFont;
+    color: #0079b5;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.attends .card{
+    text-align: center;
+    min-height: 450px;
+}
+.attends .card .title {
+    min-height: 100px;
+}
+.attends .card .line{
+    border-bottom: 2px solid #cdcdcd;
+    width: 90%;
+    margin: auto;
+}
+.attends .card .title h5{
+    font-weight: bold;
+    margin: 20px auto;
+    width: 90%;
+    font-size: 18px;
+}
+.attends .card p{
+    margin: 20px;
+    min-height: 140px;
+    color: #959595;
+    width: 85%;
+    text-align: center;
+}
+/* end attends */
+
 
 
 /* start footer */
