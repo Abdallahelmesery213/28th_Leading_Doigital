@@ -306,6 +306,17 @@ header .nav3 ul li:not(:last-child)::after {
 }
 /* end section3 */
 
+/* start speakers */
+.speakers .btn-primary{
+    display: flex;
+    justify-content: center;
+    display: flex;
+    justify-content: center;
+    margin: 30px auto;
+    padding: 20px 40px;
+}
+/* end speakers */
+
 
 
 /* start footer */
