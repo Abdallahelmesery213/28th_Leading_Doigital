@@ -313,7 +313,7 @@ header .nav3 ul li:not(:last-child)::after {
     display: flex;
     justify-content: center;
     margin: 30px auto;
-    padding: 20px 40px;
+    padding: 10px 40px;
 }
 /* end speakers */
 
