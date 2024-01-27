@@ -18,6 +18,10 @@
     font-family: newJuneMedFont;
     src: url(./../fonts/NewJune-Medium.otf);
 }
+@font-face{
+    font-family: acuminFont;
+    src: url(./../fonts/Acumin\ Pro\ Medium.otf);
+}
 
 *{
     font-family: bruumLightFont;
@@ -385,6 +389,74 @@ header .nav3 ul li:not(:last-child)::after {
 }
 /* end attends */
 
+/* start discussions */
+.discussions{
+    margin: 30px 0;
+}
+.discussions h4{
+    font-family: bruumBoldFont;
+    color: #0079b5;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.discussions ul{
+    background-color: #0078b5;
+    padding: 30px;
+}
+.discussions ul li{
+    color: #f8fcfd;
+    margin-bottom: 30px;
+    margin-left: 10px;
+}
+/* end discussions */
+
+/* start section4 */
+.section4{
+    padding: 40px 0;
+    margin: 40px 0;
+    background-color: #f1f1f2;
+}
+.section4 h2{
+    font-family: bruumBoldFont;
+    color: #0079b5;
+    margin-bottom: 40px;
+}
+.section4 p{
+    font-size: 20px;
+}
+/* end section4 */
+
+/* start sponsor */
+.sponsor{
+    margin: 30px 0;
+}
+.sponsor .top1{
+    background-color: #000;
+    color: #fff;
+    padding: 60px 0;
+}
+.sponsor .top2{
+    background-color: #0079b5;
+    color: #fff;
+    padding: 20px 0;
+    margin-bottom: 40px;
+}
+.sponsor .top1 h3{
+    font-family: acuminFont;
+    font-size: 35px;
+}
+.sponsor .top1 .btn{
+    padding: 10px 50px;
+}
+.sponsor .spons img{
+    width: 100%;
+    height: 47px;
+}
+.sponsor .spons .sponsRow{
+    margin-bottom: 15px;
+}
+/* end sponsor */
+
 
 
 /* start footer */
@@ -599,6 +671,10 @@ footer .footer3 ul li a{
     }
 }
 @media only screen and (max-width: 767px) {
+    header .container-fluid{
+        padding-left: 0;
+        padding-right: 0;
+    }
     header .right-part{
         position: relative;
         width: 100%;
@@ -611,6 +687,41 @@ footer .footer3 ul li a{
         width: 100%;
         margin: 20px auto;
     }
+    /* start section2 */
+    .section2 .section-text {
+        width: 100%;
+        margin: 10px auto;
+        text-align: center;
+    }
+    /* start images */
+    .smart-images ul{
+        flex-direction: column;
+        text-align: center;
+    }
+    /* start discussions */
+    .discussions ul {
+        margin-bottom: 25px;
+    }
+    .smart-images ul li{
+        width: auto;
+        margin: 10px auto;
+    }
+    .smart-images ul li h4 br{
+        display: none;
+    }
+    /* start sponsor */
+    .sponsor{
+        text-align: center;
+    }
+    .sponsor .top1 h3 br{
+        display: none;
+    }
+    .sponsor .top1 .btn {
+        padding: 10px 50px;
+        width: 80%;
+        margin: 30px auto 0;
+    }
+    /* start footer */
     footer .footer1 {
         text-align: center;
         padding: 20px 0;
@@ -626,6 +737,12 @@ footer .footer3 ul li a{
     }
     footer .footer2 .links{
         border-right: 0;
+    }
+    footer .footer2 .apps{
+        text-align: center;
+    }
+    footer .footer2 .apps .btn{
+        margin: 20px auto;
     }
     footer .footer2 .apps h4 br, footer .footer2 .apps h5 {
         display: none;
