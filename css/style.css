@@ -337,6 +337,10 @@ header .nav3 ul li:not(:last-child)::after {
     margin: 30px auto;
     padding: 10px 40px;
 }
+.speakers .btn a{
+    text-decoration: none;
+    color: #fff;
+}
 /* end speakers */
 
 /* start topics */
@@ -585,8 +589,31 @@ footer .footer3 ul li a{
     color: #fff;
 }
 /* end footer */
-
 /* end home sreen */
+
+/* start speaker page */
+.speaker{
+    background-color: #1a1a1a;
+    padding: 40px 0;
+}
+.speaker .img-speak{
+    cursor: pointer;
+}
+.speaker .img-speak:hover img{
+    border-bottom: 2px solid red;
+}
+.speaker .img-speak:hover h5{
+    color: red;
+}
+.speaker .img-speak img{
+    width: 275px;
+    height: 275px;
+}
+.speaker .img-speak h5{
+    color: #fff;
+    margin: 20px auto 30px;
+}
+/* end speaker page */
 
 /* start media query */
 
