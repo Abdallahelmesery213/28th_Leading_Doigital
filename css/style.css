@@ -809,6 +809,11 @@ footer .footer3 ul li a{
     footer .footer2 .logo h5 {
         font-size: 20px;
     }
+    .speaker .img-speak{
+        width: 50%;
+        margin: auto;
+        text-align: center;
+    }
 }
 @media only screen and (max-width: 505px) {
     header .right-part .nav1 .dropdowns {
