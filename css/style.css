@@ -679,10 +679,6 @@ footer .footer3 ul li a{
     }
 }
 @media only screen and (max-width: 767px) {
-    header .container-fluid{
-        padding-left: 0;
-        padding-right: 0;
-    }
     header .right-part{
         position: relative;
         width: 100%;
