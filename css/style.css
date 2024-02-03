@@ -615,6 +615,73 @@ footer .footer3 ul li a{
 }
 /* end speaker page */
 
+/* start agenda screen */
+.agenda-screen .event-agenda{
+    background-color: #f1f1f2;
+    padding: 40px;
+    margin-top: 30px;
+}
+.event-agenda nav{
+    background-color: #e6e7e8;
+    padding: 10px;
+    margin-bottom: 20px;
+    display: inline-flex;
+}
+.event-agenda nav button.nav-link{
+    background-color: #fff;
+    border-radius: 0;
+    margin: 0 5px;
+    font-size: 20px;
+    color: #000;
+    font-weight: bold;
+    padding: 6px 26px;
+}
+.agenda-screen .photo-gallery a{
+    text-decoration: none;
+    color: #fff;
+}
+.event-agenda .nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    background-color: #ff0000;
+}
+.event-agenda h5{
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 18px;
+}
+.agenda-screen .agenda-section{
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #e6e7e8;
+    border-bottom: 3px solid #fff;
+    min-height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.agenda-screen .agenda-section p{
+    margin-bottom: 0;
+    font-size: 15px;
+    color: #ff0000;
+    font-family: bruumBoldFont;
+}
+.agenda-screen .agenda-section ul{
+    padding-left: 1rem;
+    margin-top: 5px;
+}
+.agenda-screen .agenda-section ul li{
+    font-size: 14px;
+    margin-bottom: 4px;
+}
+.agenda-screen .btn-danger{
+    border-radius: 0;
+    background-color: #ff2020;
+    border: none;
+    font-size: 14px;
+    color: #ffe9e9;
+}
+/* end agenda screen */
+
 /* start media query */
 
 @media only screen and (max-width: 1281px) {
@@ -751,6 +818,24 @@ footer .footer3 ul li a{
         padding: 10px 50px;
         width: 80%;
         margin: 30px auto 0;
+    }
+    /* start .agenda-screen */
+    .agenda-screen .photo-gallery h4{
+        font-size: 20px;
+        text-align: center;
+    }
+    .agenda-screen .photo-gallery .btn.btn-danger{
+        width: 45%;
+        margin: 1px auto;
+    }
+    .event-agenda nav button.nav-link {
+        font-size: 15px;
+        margin-bottom: 10px;
+        width: 44%;
+        padding: 3px 15px;
+    }
+    .event-agenda h5{
+        font-size: 16px;
     }
     /* start footer */
     footer .footer1 {
