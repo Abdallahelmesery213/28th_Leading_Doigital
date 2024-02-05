@@ -155,7 +155,7 @@ header .nav3 ul li:not(:last-child)::after {
     color: #f1efef;
     background-color: #1b75bb;
     border: none;
-    width: 80%;
+    width: 75%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -459,10 +459,10 @@ header .nav3 ul li:not(:last-child)::after {
 }
 .sponsor .top1 h3{
     font-family: acuminFont;
-    font-size: 35px;
+    font-size: 32px;
 }
 .sponsor .top1 .btn{
-    padding: 10px 50px;
+    padding: 10px 20px;
 }
 .sponsor .top1 .btn a{
     color: #fff;
@@ -688,6 +688,26 @@ footer .footer3 ul li a{
     color: #ffe9e9;
 }
 /* end agenda screen */
+/* start photo-gallery screen */
+.photo-gallery{
+    margin: 40px 0;
+}
+.photo-gallery h4{
+    font-family: bruumBoldFont;
+    color: #0079b5;
+    margin-bottom: 40px;
+}
+.photo-gallery .gallery{
+    border: 1px solid #0078b5;
+    padding: 5px;
+}
+.photo-gallery h5{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+/* end photo-gallery screen */
 
 /* start media query */
 
