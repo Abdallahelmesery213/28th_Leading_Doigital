@@ -200,6 +200,65 @@ header .nav3 ul li:not(:last-child)::after {
     color: #888686;
 }
 /* end counter */
+/* start banners */
+.banner{
+    /* border-bottom: 10px solid #3f3f3f; */
+    width: 100%;
+    height: 580px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    /* margin-bottom: 30px; */
+    border-bottom: 5px solid #0079b5;
+}
+.banner.bannerLeft{
+    background-position: left;
+}
+.banner.bannerRight{
+    background-position: right;
+}
+.banner .banner-text{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.banner.bannerRight .banner-text{
+    text-align: right;
+    margin-right: 5%;
+}
+.banner.bannerRight .banner-text p{
+    margin-left: auto !important;
+}
+.banner.bannerLeft .banner-text{
+    width: inherit;
+}
+.banner .banner-text h3{
+    font-family: bruumBoldFont;
+    color: #0079b5;
+    font-size: 35px;
+    line-height: 47px;
+    /* margin-bottom: 25px; */
+}
+.banner .banner-text p{
+    font-family: bruumBoldFont;
+    line-height: 35px;
+    font-size: 24px;
+    width: 70%;
+}
+.banner-1{
+    background-image: url(./../images/bannerAI1.jpg);
+}
+.banner-2{
+    background-image: url(./../images/bannerAI2.jpg);
+}
+.banner-3{
+    background-image: url(./../images/bannerAI3.jpg);
+}
+.banner-4{
+    background-image: url(./../images/bannerAI4.jpg);
+}
+/* end banners */
+
 /* start section1 */
 .section1 h2{
     font-family: bruumBoldFont;
@@ -714,6 +773,11 @@ footer .footer3 ul li a{
 /* end photo-gallery screen */
 
 /* start media query */
+@media only screen and (min-width: 1400px) {
+    .banner {
+        height: 820px;
+    }
+}
 
 @media only screen and (max-width: 1281px) {
     .counter-top p{
@@ -738,6 +802,18 @@ footer .footer3 ul li a{
 @media only screen and (max-width: 991px) {
     .counter h2 {
         font-size: 24px;
+    }
+    .banner {
+        height: 470px;
+    }
+    .banner .banner-text h3 {
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .banner .banner-text p {
+        font-size: 18px;
+        line-height: 25px;
+        width: 75%;
     }
 }
 @media only screen and (max-width: 1109px) {
@@ -816,6 +892,38 @@ footer .footer3 ul li a{
         width: 100%;
         margin: 20px auto;
     }
+    .banner .over {
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #000;
+        opacity: 0.8;
+        z-index: 99;
+    }
+    .banner .banner-text {
+        width: 90%;
+        position: relative;
+        top: 50%;
+        margin: 20% auto;
+        /* margin: auto; */
+    }
+    .banner .banner-text h3{
+        color: #1b75bb;
+        text-align: center;
+    }
+    .banner .banner-text p{
+        color: #fff;
+        text-align: center;
+        width: 100%;
+    }
+    .banner, .bannerTop{
+        width: 100%;
+        height: 400px;
+        background-position: left;
+    }
+    /* end banners */
     /* start section2 */
     .section2 .section-text {
         width: 100%;
@@ -918,6 +1026,14 @@ footer .footer3 ul li a{
     .counter-top .btns .btn {
         width: 100%;
         margin-top: 5px;
+    }
+    .banner .banner-text h3 {
+        font-size: 18px;
+        line-height: 26px;
+    }
+    .banner .banner-text p {
+        font-size: 15px;
+        line-height: 20px;
     }
     footer .footer3 ul li{
         width: 42%;
