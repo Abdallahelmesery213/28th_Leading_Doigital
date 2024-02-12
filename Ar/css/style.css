@@ -51,6 +51,7 @@ header .left-part{
     min-height: 165px;
     display: flex;
     align-items: center;
+    background-color: #fff;
 }
 header .right-part{
     position: absolute;
@@ -206,16 +207,28 @@ header .nav3 ul li:not(:last-child)::after {
     color: #888686;
 }
 /* end counter */
+
+/* end counter */
+.main-text h2, .main-text h4{
+    text-align: center;
+    font-family: bruumBoldFont;
+    margin: 40px 0;
+}
+/* start banners */
+
 /* start banners */
 .banner{
     /* border-bottom: 10px solid #3f3f3f; */
     width: 100%;
     height: 580px;
+    height: 780px;
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
     /* margin-bottom: 30px; */
     border-bottom: 5px solid #0079b5;
+    margin-bottom: 30px;
+    /* border-bottom: 5px solid #0079b5; */
 }
 .banner.bannerLeft{
     background-position: left;
@@ -263,12 +276,18 @@ header .nav3 ul li:not(:last-child)::after {
 .banner-4{
     background-image: url(./../images/bannerAI4.jpg);
 }
+.banner-5{
+    background-image: url(./../images/bannerAI5.jpg);
+}
+.banner-6{
+    background-image: url(./../images/bannerAI6.jpg);
+}
 /* end banners */
 
 /* start section1 */
 .section1 h2{
     font-family: bruumBoldFont;
-    color: #0079b5;
+    color: #000;
     margin-bottom: 30px;
 }
 .section1 p{
@@ -276,7 +295,7 @@ header .nav3 ul li:not(:last-child)::after {
 }
 .section1 p a{
     text-decoration: none;
-    color: #ff2020;
+    color: #0079b5;
 }
 /* end section1 */
 
@@ -417,6 +436,8 @@ header .nav3 ul li:not(:last-child)::after {
     font-family: bruumBoldFont;
     color: #0079b5;
     margin-bottom: 40px;
+    margin-bottom: 25px;
+    margin-top: 50px;
     text-align: center;
 }
 .topics .top1{
