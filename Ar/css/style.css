@@ -113,7 +113,7 @@ header .nav2 ul li:not(:last-child)::after {
 header .right-part .nav2 a{
     text-decoration: none;
     color: #fff;
-    font-size: 14px;
+    font-size: 16px;
     font-family: bahijSemiBold;
     margin-left: 16px;
 }
@@ -127,7 +127,7 @@ header .right-part .nav3{
 header .right-part .nav3 a{
     text-decoration: none;
     color: #000;
-    font-size: 14px;
+    font-size: 16px;
     font-family: bahijSemiBold;
     margin-left: 16px;
 }
@@ -209,10 +209,12 @@ header .nav3 ul li:not(:last-child)::after {
 /* end counter */
 
 /* end counter */
-.main-text h2, .main-text h4{
+.main-text h2, .main-text h4, .main-text h3{
     text-align: center;
-    font-family: bruumBoldFont;
+    font-family: bahijSemiBold;
+    font-weight: bold;
     margin: 40px 0;
+    line-height: 45px;
 }
 /* start banners */
 
@@ -252,7 +254,8 @@ header .nav3 ul li:not(:last-child)::after {
     width: inherit;
 }
 .banner .banner-text h3{
-    font-family: bruumBoldFont;
+    font-family: bahijSemiBold;
+    font-weight: bold;
     color: #0079b5;
     font-size: 35px;
     line-height: 47px;
