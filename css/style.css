@@ -37,6 +37,16 @@ a{
 }
 /* start home sreen */
 /* start header */
+header .right-logo p{
+    font-size: 25px;
+    min-height: 170px;
+    display: flex;
+    align-items: center;
+}
+header .left-logo img{
+    width: 75%;
+    min-height: 170px;
+}
 header{
     position: relative;
     width: 100%;
@@ -84,12 +94,12 @@ header .right-part .nav1 button{
     border: none;
     font-size: 14px;
 }
-header .right-part .nav2{
+header .nav2{
     background-color: #0079b5;
+    color: #fff;
     min-height: 60px;
     display: flex;
     align-items: center;
-    padding-left: 20px;
 }
 header .nav2 ul li{
     position: relative;
@@ -104,21 +114,21 @@ header .nav2 ul li:not(:last-child)::after {
     bottom: 2px;
     background-color: #fff;
 }
-header .right-part .nav2 a{
+header .nav2 a{
     text-decoration: none;
     color: #fff;
     font-size: 14px;
     font-family: bruumBoldFont;
     margin-right: 16px;
 }
-header .right-part .nav3{
+header .nav3{
     background-color: #fff;
     min-height: 50px;
     display: flex;
     align-items: center;
-    padding-left: 20px;
+    /* padding-left: 20px; */
 }
-header .right-part .nav3 a{
+header .nav3 a{
     text-decoration: none;
     color: #000;
     font-size: 14px;
@@ -628,9 +638,10 @@ footer .footer2 .apps{
 }
 footer .footer2 .apps h4{
     color: #000;
-    font-size: 22px;
-    line-height: 30px;
-    font-weight: bold;
+    font-family: bruumBoldFont;
+    font-size: 24px;
+    text-align: center;
+    line-height: 35px;
 }
 footer .footer2 .apps .line{
     border-bottom: 1px solid #bfb2b2;
@@ -640,10 +651,10 @@ footer .footer2 .apps h5,
 footer .footer2 .apps h5 a{
     text-decoration: none;
     color: #000;
-    font-size: 18px;
-    line-height: 30px;
-    font-weight: bold;
-    margin: 25px 0;
+    font-family: bruumBoldFont;
+    font-size: 24px;
+    text-align: center;
+    line-height: 35px;
 }
 footer .footer2 .apps .btn{
     background-color: #0079b5;
