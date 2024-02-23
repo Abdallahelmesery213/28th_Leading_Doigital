@@ -275,8 +275,8 @@ header .nav3 ul li:not(:last-child)::after {
     font-family: bahijSemiBold;
     font-weight: bold;
     color: #000;
-    font-size: 40px;
-    line-height: 55px;
+    font-size: 37px;
+    line-height: 50px;
     /* margin-bottom: 25px; */
 }
 .banner .banner-text p{
@@ -307,12 +307,14 @@ header .nav3 ul li:not(:last-child)::after {
 
 /* start section1 */
 .section1 h2{
-    font-family: bruumBoldFont;
+    font-family: bahijSemiBold;
+    font-weight: bold;
     color: #000;
     margin-bottom: 30px;
 }
 .section1 p{
     font-size: 20px;
+    font-family: bahijSemiBold;
 }
 .section1 p a{
     text-decoration: none;
