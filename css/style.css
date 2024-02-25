@@ -567,9 +567,9 @@ header .nav3 ul li:not(:last-child)::after {
     margin-bottom: 15px;
 }
 /* end sponsor */
-
-
-
+.home-page-images img{
+    height: 195px;
+}
 /* start footer */
 footer .footer1{
     background-color: #000;

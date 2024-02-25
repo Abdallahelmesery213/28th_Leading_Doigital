@@ -584,7 +584,9 @@ header .nav3 ul li:not(:last-child)::after {
     margin-bottom: 15px;
 }
 /* end sponsor */
-
+.home-page-images img{
+    height: 195px;
+}
 /* start welome page */
 .welcome-page h2{
     margin-bottom: 25px;
