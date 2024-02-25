@@ -598,6 +598,19 @@ footer .footer1 h5{
     font-size: 17px;
     color: #b1b1b1;
 }
+footer .social-media{
+    text-align: center;
+    margin: 30px auto;
+}
+footer .social-media h6{
+    font-weight: bold;
+    font-size: 20px;
+}
+footer .social-media i{
+    font-size: 30px;
+    margin: 0 5px;
+    cursor: pointer;
+}
 footer .footer1 .social{
     margin: 0 auto;
     text-align: center;
@@ -608,7 +621,7 @@ footer .footer1 .social ul li{
     cursor: pointer;
 }
 footer .footer2{
-    background-color: #fff;
+    background-color: #f5f5f5;
     padding: 30px 0 !important;
 }
 footer .footer2 .logo{
@@ -653,7 +666,7 @@ footer .footer2 .apps h4{
 }
 footer .footer2 .apps .line{
     border-bottom: 1px solid #bfb2b2;
-    margin: 30px 0;
+    margin: 25px 0;
 }
 footer .footer2 .apps h5,
 footer .footer2 .apps h5 a{
