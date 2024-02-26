@@ -1130,10 +1130,17 @@ header .nav3 ul li:not(:last-child)::after {
     line-height: 38px;
 }
 .welcome-page .text p{
-    font-size: 20px;
+    font-size: 19px;
     line-height: 34px;
-    margin-bottom: .5rem;
-    color: #363535;
+    /* margin: 0 0 20px; */
+    color: #000;
+}
+.welcome-page .text ul{
+    padding-right: 35px;
+}
+.welcome-page .text ul li{
+    margin-bottom: 7px;
+    font-size: 19px;
 }
 /* end welome page */
 
