@@ -568,7 +568,9 @@ header .nav3 ul li:not(:last-child)::after {
 }
 /* end sponsor */
 .home-page-images img{
-    height: 195px;
+    /* height: 195px; */
+    height: 14.25vw;
+    margin-bottom: 20px;
 }
 /* start footer */
 footer .footer1{
