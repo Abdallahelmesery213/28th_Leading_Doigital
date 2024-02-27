@@ -1158,7 +1158,8 @@ footer .footer1 .social ul li{
     cursor: pointer;
 }
 footer .footer2{
-    background-color: #f5f5f5;
+    background-color: #282828;
+    color: #fff;
     padding: 30px 0 !important;
 }
 footer .footer2 .logo{
@@ -1168,7 +1169,7 @@ footer .footer2 .logo{
 }
 footer .footer2 .logo h5{
     font-family: bruumBoldFont;
-    color: #000;
+    color: #fff;
     font-size: 24px;
     margin-top: 20px;
 }
@@ -1179,7 +1180,7 @@ footer .footer2 .links {
     border-right: 1px solid #bfb2b2;
 }
 footer .footer2 .links h5{
-    color: #0079b5;
+    color: #fff;
     margin-bottom: 20px;
     font-size: 20px;
 }
@@ -1195,20 +1196,20 @@ footer .footer2 .apps{
     padding-left: 10px;
 }
 footer .footer2 .apps h4{
-    color: #000;
+    color: #fff;
     font-family: bruumBoldFont;
     font-size: 24px;
     text-align: center;
     line-height: 35px;
 }
 footer .footer2 .apps .line{
-    border-bottom: 1px solid #bfb2b2;
+    border-bottom: 1px solid #fff;
     margin: 25px 0;
 }
 footer .footer2 .apps h5,
 footer .footer2 .apps h5 a{
     text-decoration: none;
-    color: #000;
+    color: #fff;
     font-family: bruumBoldFont;
     font-size: 24px;
     text-align: center;
@@ -1229,7 +1230,7 @@ footer .footer2 .apps ul li{
     width: 45%;
 }
 footer .footer3 {
-    background-color: #0079b5;
+    background-color: #000;
     color: #fff;
     padding: 15px 0;
 }
