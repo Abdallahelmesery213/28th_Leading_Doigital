@@ -163,7 +163,7 @@ header .nav3 ul li:not(:last-child)::after {
 }
 /* end header */
 #winnerSliders .carousel-item img{
-    height: 680px;
+    height: 750px;
 }
 .counter-top{
     background-color: #f1f1f2;
@@ -1650,6 +1650,9 @@ footer .footer3 ul li a{
     .counter-top .btns .btn {
         width: 100%;
         margin-top: 5px;
+    }
+    #winnerSliders .carousel-item img {
+        height: 250px;
     }
     .banner .banner-text h3 {
         font-size: 18px;
