@@ -46,10 +46,16 @@ header .right-logo p{
     font-family: sans-serif;
     font-weight: bold;
 }
-header .left-logo img{
+header .left-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35%;
+}
+/* header .left-logo img{
     width: 65%;
     min-height: 170px;
-}
+} */
 header{
     position: relative;
     width: 100%;
