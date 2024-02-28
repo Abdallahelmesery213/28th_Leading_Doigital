@@ -159,7 +159,7 @@ header .nav3 ul li:not(:last-child)::after {
 }
 /* end header */
 #winnerSliders .carousel-item img{
-    height: 780px;
+    height: 60rem;
 }
 .counter-top{
     background-color: #f1f1f2;

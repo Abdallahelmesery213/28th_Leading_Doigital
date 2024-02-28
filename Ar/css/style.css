@@ -26,6 +26,10 @@
     font-family: bahijSemiBold;
     src: url(./../fonts/Bahij_TheSansArabic-SemiBold.ttf);
 }
+@font-face{
+    font-family: bahijBold;
+    src: url(./../fonts/Bahij_TheSansArabic-Black.ttf);
+}
 
 *{
     font-family: bahijSemiBold;
@@ -163,7 +167,7 @@ header .nav3 ul li:not(:last-child)::after {
 }
 /* end header */
 #winnerSliders .carousel-item img{
-    height: 780px;
+    height: 60rem;
 }
 .counter-top{
     background-color: #f1f1f2;
@@ -1134,6 +1138,9 @@ header .nav3 ul li:not(:last-child)::after {
     line-height: 34px;
     /* margin: 0 0 20px; */
     color: #000;
+}
+.welcome-page .text p b{
+    font-family: bahijBold;
 }
 .welcome-page .text ul{
     padding-right: 35px;
