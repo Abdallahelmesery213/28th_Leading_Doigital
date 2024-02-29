@@ -75,6 +75,9 @@ header .left-part{
     align-items: center;
     background-color: #fff;
 }
+header .nav1{
+    direction: ltr;
+}
 header .right-part{
     position: absolute;
     width: 74%;
