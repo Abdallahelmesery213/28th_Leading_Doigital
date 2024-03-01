@@ -1554,6 +1554,25 @@ footer .footer3 ul li a{
 }
 /* end contact screen */
 
+/* start venue screen */
+.venue-screen .venue h2,
+.venue-screen .venue h4,
+.venue-screen .venue p b{ 
+    font-family: bruumBoldFont;
+}
+.venue-screen .venue p ,
+.venue-screen .venue p b{
+    font-size: 18px;
+}
+.venue-screen .venue .text p ,
+.venue-screen .venue h6 {
+    font-size: 18px;
+}
+.venue-screen .venue h6{
+    margin-bottom: 20px;
+}
+/* end venue screen */
+
 /* start media query */
 @media only screen and (min-width: 1400px) {
     .banner {
