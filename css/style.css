@@ -1505,13 +1505,16 @@ footer .footer3 ul li a{
 /* end contact screen */
 /* start venue screen */
 .venue-screen .venue h2,
+.venue-screen .venue h3,
 .venue-screen .venue h4,
 .venue-screen .venue p b{ 
     font-family: bruumBoldFont;
 }
 .venue-screen .venue p ,
+.venue-screen .venue ul li ,
 .venue-screen .venue p b{
     font-size: 18px;
+    margin-bottom: 10px;
 }
 .venue-screen .venue .text p ,
 .venue-screen .venue h6 {
