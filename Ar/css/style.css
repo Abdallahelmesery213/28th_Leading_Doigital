@@ -1564,9 +1564,13 @@ footer .footer3 ul li a{
 .venue-screen .venue p b{
     font-size: 18px;
 }
-.venue-screen .venue .text p ,
-.venue-screen .venue h6 {
+.venue-screen .venue p ,
+.venue-screen .venue h6 ,
+.venue-screen .venue ul li
+{
     font-size: 18px;
+    font-family: bruumLightFont;
+    margin-bottom: 10px;
 }
 .venue-screen .venue h6{
     margin-bottom: 20px;
