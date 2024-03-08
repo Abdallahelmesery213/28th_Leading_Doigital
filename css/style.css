@@ -1269,6 +1269,44 @@ footer .footer3 ul li a{
 .speaker .img-speak h5{
     margin: 20px auto 30px;
 }
+.speaker-page .nav-spakers{
+    background-color: #0079b5;
+    color: #fff;
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+}
+.speaker-page .nav-spakers .nav-fill .nav-item .nav-link, .nav-justified .nav-item .nav-link{
+    color: #fff;
+}
+.speaker-page .nav-spakers ul li {
+    position: relative;
+    cursor: pointer;
+    --bs-nav-link-padding-x: 0;
+    margin-right: 15px !important;
+}
+.speaker-page .nav-spakers ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    font-family: bruumBoldFont;
+    /* margin-right: 16px; */
+}
+/* .speaker-page .nav-spakers ul li:not(:last-child)::after {
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 18px;
+    bottom: 2px;
+    background-color: #fff;
+} */
+.nav-spakers .nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    background-color: #0079b5 !important;
+    border-bottom: 1px solid #fff;
+}
+.nav-spakers .nav-pills .nav-link{
+    border-radius: 0;
+}
 /* end speaker page */
 
 /* start agenda screen */
