@@ -1263,8 +1263,10 @@ footer .footer3 ul li a{
     color: red;
 }
 .speaker .img-speak img{
-    width: 275px;
-    height: 275px;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    margin: auto;
 }
 .speaker .img-speak h5{
     margin: 20px auto 30px;
